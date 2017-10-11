@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('Guns N Roses', 'Appetite for Destruction', '1987', '21.6', 'Hard Rock'),
  ('Santana', 'Supernatural', '1999', '20.5', 'Rock'),
